@@ -164,6 +164,7 @@ const VideoCarousel = () => {
                   playsInline={true}
                   preload="auto"
                   muted
+                  className={`${list.id === 2 && 'translate-x-44'} pointer-events-none`}
                   ref={(el) => (videoRef.current[index] = el)}
                   onEnded={() => {
                     index !== 3
