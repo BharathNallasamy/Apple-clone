@@ -14,7 +14,7 @@ const Hero = () => {
     } else {
       setVideoSrc(heroVideo);
     }
-  }; // 1:12:20
+  };
 
   useEffect(() => {
     window.addEventListener("resize", handleVideoSrcSet);
